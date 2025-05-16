@@ -98,4 +98,4 @@ Fleer, J., & Stenzel, P. (2016). *Impact analysis of different operation strateg
 
 ## 📬 Contact
 
-For questions or collaboration, please contact [Scott Moura](smoura@berkeley.edu) or [Shengyu Tao](sytao@berkeley.edu).
+For questions or collaboration, please contact [Scott Moura](mailto:smoura@berkeley.edu) or [Shengyu Tao](mailto:sytao@berkeley.edu).
