@@ -14,7 +14,6 @@ The code simulates the operation of a Battery Energy Storage System (BESS) provi
 - Full Cycle Equivalents (FCE)
 - Schedule energy exchange
 
----
 
 ## 🗂 Repository Structure
 
@@ -26,9 +25,8 @@ The code simulates the operation of a Battery Energy Storage System (BESS) provi
 | `BESS_Utilities.m`     | Helper functions for SOC calculation, energy balance, and cycle counting. |
 | `BESS_Visualization.m` | Tools for visualizing SOC distributions, energy exchanges, etc. |
 | `FreqData.mat`         | High-resolution frequency data for several real-world days. |
-| `FreqDataRep.mat`      | Synthetic full-year frequency profile built from sampled days. |
+| `FreqDataRep.mat`      | Synthetic full-year frequency profile built from sampled days. See [here](https://github.com/terencetaothucb/ERCOT-DataCrawler/tree/main/data/ercot) for more data.|
 
----
 
 ## ⚙️ How to Use
 
@@ -51,7 +49,6 @@ This will:
 - Output key metrics such as total energy throughput, FCE, and SOC distributions
 - Optionally visualize results (see next section)
 
----
 
 ## 🧪 Reproduced Functions from the Paper
 
@@ -62,7 +59,6 @@ This will:
 | Fig. 9–18 | Energy exchange, SOC histogram, FCE analysis | `BESS_Visualization.m` |
 | Eq. (1)–(9) | Implemented directly in power control logic | `BESS_Simulator.m`, `BESS_Utilities.m` |
 
----
 
 ## 🧩 Simulation Parameters
 
@@ -77,7 +73,6 @@ You can modify the following options inside `BESS_Parameters.m`:
 - **Schedule Parameters**: power `P_ST`, duration `dt_contract`
 - **Simulation Duration**: full year vs. limited test period
 
----
 
 ## 📈 Output & Visualization
 
@@ -95,7 +90,6 @@ plotSOCDistribution(SOC_vector);
 plotEnergyFlows(DEST, DEOF, DEDU);
 ```
 
----
 
 ## 🧠 Extensions
 
@@ -103,14 +97,12 @@ plotEnergyFlows(DEST, DEOF, DEDU);
 - Extend to multi-BESS aggregation or hybrid systems (e.g., wind + BESS)
 - Port to Python or Simulink for real-time or embedded simulation
 
----
 
 ## 📄 Reference
 
 Fleer, J., & Stenzel, P. (2016). *Impact analysis of different operation strategies for battery energy storage systems providing primary control reserve*. Journal of Energy Storage, 8, 320–338. https://doi.org/10.1016/j.est.2016.02.003
 
----
 
 ## 📬 Contact
 
-For questions or collaboration, please contact [Your Name] or open an issue in this repository.
+For questions or collaboration, please contact [Scott Moura](smoura@berkeley.edu) or [Shengyu Tao](sytao@berkeley.edu).
