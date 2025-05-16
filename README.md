@@ -1,10 +1,3 @@
-# BESS PCR Simulation Framework
-
-This repository contains a MATLAB-based simulation framework for reproducing the results of the paper:
-
-**"Impact analysis of different operation strategies for battery energy storage systems providing primary control reserve"**  
-*Johannes Fleer, Peter Stenzel, Journal of Energy Storage, 2016.*
-
 ## 📌 Overview
 
 The code simulates the operation of a Battery Energy Storage System (BESS) providing **Primary Control Reserve (PCR)** in accordance with the German regulatory framework. It evaluates how different operational strategies—**overfulfillment**, **deadband utilization**, and **scheduled energy transactions**—affect BESS performance in terms of:
